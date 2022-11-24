@@ -4,7 +4,7 @@ This project aims to analyze the impact of dietary trends in The United State, C
 
 **How to combine all of the datasets into one:**
 
-* Download the [Dataset Joining Tool.py] Python script or copy the source code into a file/IDE and execute that Python script.
+* Download the [Dataset Joining Tool.py](https://github.com/Austin-Daigle/DietarySelectionsAndHealthResearch/blob/main/Dataset%20Joining%20Tool.py) Python script or copy the source code into a file/IDE and execute that Python script.
 
 * When executed, a file dialog prompt will appear asking which tab-delimited text (.txt) files should be selected (please
 remember to convert your dataset into tab-delimited text files using Microsoft Excel or another tool)
