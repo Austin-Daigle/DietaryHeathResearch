@@ -1,4 +1,4 @@
-# README: Python Dataset Joining Tool
+# Python Dataset Joining Tool
 
 **Geneneral Introduction**
 This Python script was written to automate the merging of multiple select datasets from 
@@ -7,6 +7,9 @@ file (.csv) with similar row and column dataset formats regarding health and die
 
 This Python script was written on an "as-is" basis and can be modified to fit alternative use-cases
 using the built-in filtering functions/mering functions.
+
+# Description
+write this
 
 # Installation and Environment Setup
 Ensure that your environment has the following requirements:
@@ -25,3 +28,4 @@ will not show the datasets as options (also if the text file is not in the corre
 * A File Save Dialog will appear and ask you where and what to save the .csv merged output file.
 
 *Keep in mind that the country/code/and year data past the first dataset are removed in the row auto-merging operation to properly merge the datasets. Also, a larger datasets may take more processing time to read, parse, compile, and save.
+
