@@ -23,4 +23,6 @@ will not show the datasets as options (also if the text file are not in the corr
 * Select the desired supported datasets from the filechooser dialog box and select "Open"
 * The console output/terminal will printout the directories and files selected within selection order and process notes
 * A File Save Dialog will appear and ask you where and what the save the .csv merged output file as.
-* Keep in mind that the country/code/and year data past the first dataset are removed in the row auto-merging operation in order to properly merge the datasets.
+
+*Keep in mind that the country/code/and year data past the first dataset are removed in the row auto-merging operation in order to properly merge the datasets.
+
