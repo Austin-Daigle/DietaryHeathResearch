@@ -19,7 +19,7 @@ Ensure that your environment has the following requirements:
 
 # Pre-Merge Dataset formating "Cleaning" Process:
 * Download the datasets from ourworlddata.org
-* Open each dataset separately into Excell (do not merge the dataset in Excel)
+* Open each dataset separately into Excel (do not merge the dataset in Excel)
 * Open the "File" tab from the ribbon and Select the "Export" tab
 * Select the "Change file type" function
 * Within the change file type menu, under "other file types," select "Text (Tab delimited) (*.txt)" and save the file as the same name as the original file name.
