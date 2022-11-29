@@ -1,4 +1,4 @@
-# Data and Visual Analytics Project: Dietary Selection and Heath Research
+# CSCI 4202: Dietary Selection and Heath Research
 
 This project aims to analyze the impact of dietary trends in The United State, Canada, Mexico, Peru, and Brazil during the years of 1990 to 2013 to Death and disease data regarding cardiac episodes and cancers.
 
