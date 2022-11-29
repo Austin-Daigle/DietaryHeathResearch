@@ -9,7 +9,7 @@ This Python script was written on an "as-is" basis and can be modified to fit al
 using the built-in filtering functions/mering functions.
 
 # Description
-write this
+This script functions by allowing the user to select the appropriately selected text files (see note at the bottom of the page and the conversion guide below), and for each file selected, each file is read off and parsed (as a matrix within a matrix). A series of in-built cleaning functions work when parsing to auto-filter non-selected countries and year dates within ranges. Then a merging function will take each filtered matrices (each matrix contains data from one file), and for each "row" in matrix1, that corresponding "row" will be merged for matrix2 until all the matrices have been merged. Also, for every merged matrix after the first matrix, the country, year, and entity "columns" are pruned to eliminate ambiguous repetition. The final merged matrix is reprocessed into a saved CSV output file.
 
 # Installation and Environment Setup
 Ensure that your environment has the following requirements:
