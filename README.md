@@ -13,12 +13,12 @@ This script functions by allowing the user to select the appropriately selected 
 
 # Installation and Environment Setup
 Ensure that your environment has the following requirements:
-* Python 3.0 or above (this script is NOT compatible with 2.0 without refactoring) (also, this script was written in Python 3.11.0)
+* Install [Python 3.0](https://www.python.org/) or above (this script is NOT compatible with 2.0 without refactoring) (also, this script was written in Python 3.11.0)
 * Environment path(s) to the correct Python build within your environment
-* A Python 3.0 Compatible IDE or terminal/command line that can execute Python scripts
+* Optional: Install a Python-compatable IDE ([VSCode](https://code.visualstudio.com/) is recommended)
 
 # Pre-Merge Dataset formating "Cleaning" Process:
-* Download the datasets from ourworlddata.org
+* Download the datasets from [ourworlddata.org](https://ourworldindata.org/) (or see the raw datasets [here](https://github.com/Austin-Daigle/DietarySelectionsAndHealthResearch/tree/main/OriginalDatasets) or the tab-delimited textfile datasets [here](https://github.com/Austin-Daigle/DietarySelectionsAndHealthResearch/tree/main/ConvertedDatasets))
 * Open each dataset separately into Excel (do not merge the dataset in Excel)
 * Open the "File" tab from the ribbon and Select the "Export" tab
 * Select the "Change file type" function
@@ -30,10 +30,9 @@ Ensure that your environment has the following requirements:
 *IMPORTANT NOTE: The data within the datasets from our from ourworldindata.org have been verified to have been "clean data" (there are no "null" or data mismatches). however, there is a data format issue. Some of the entries have double/single quotes and commas in entries, and .csv reading functions within most python regex functions become unreliable without the use of additional non-standard libraries/dependencies. Therefore each dataset must be converted into a tab-delimited text file for the script to read, parse and process the datasets into a .csv file.  
 failing to do this .csv to text file conversion process before auto-merging may result in the parser not functioning correctly or becoming unstable. Please see the section above for steps on how to process this data.
 
-* Download the Python script from the repository or copy the code into an IDE/python file
+* Download the Python script from the repository or copy the code into an IDE/python file from [here](https://github.com/Austin-Daigle/DietarySelectionsAndHealthResearch/blob/main/Dataset%20Joining%20Tool.py)
 * Interpret and execute the Python script
 * A File Chooser Dialog will appear along with a terminal (or console printout if executed in an IDE)
-
 * Select the desired supported datasets from the file chooser dialog box and select "Open."
 * The console output/terminal will printout the directories and files selected within selection order and process notes
 * A File Save Dialog will appear and ask you where and what to save the .csv merged output file.
