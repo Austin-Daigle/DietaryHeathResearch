@@ -2,7 +2,7 @@
 
 **General Introduction**
 This Python script was written to automate the merging of multiple select datasets from 
-[(https://ourworldindata.org/)](https://ourworldindata.org/) into a single comma-separated value
+[ourworldindata.org](https://ourworldindata.org/) into a single comma-separated value
 file (.csv) with similar row and column dataset formats regarding health and dietary data.
 
 This Python script was written on an "as-is" basis and can be modified to fit alternative use-cases
